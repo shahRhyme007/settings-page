@@ -196,18 +196,18 @@ export function Settings() {
                 <CardContent>
                   <form className="flex flex-col gap-4">
                     <label htmlFor="interviewMode">Interview Mode</label>
-                    <select id="interviewMode">
+                    <select id="interviewMode" className="border rounded p-2">
                       <option value="mock">Mock Interviews</option>
                       <option value="job">Job-specific Interviews</option>
                     </select>
                     <label htmlFor="difficulty">Question Difficulty</label>
-                    <select id="difficulty">
+                    <select id="difficulty" className="border rounded p-2">
                       <option value="easy">Easy</option>
                       <option value="medium">Medium</option>
                       <option value="hard">Hard</option>
                     </select>
                     <label htmlFor="duration">Interview Duration</label>
-                    <select id="duration">
+                    <select id="duration" className="border rounded p-2">
                       <option value="15">15 mins</option>
                       <option value="30">30 mins</option>
                       <option value="60">60 mins</option>
@@ -247,7 +247,7 @@ export function Settings() {
                 <CardContent>
                   <form className="flex flex-col gap-4">
                     <label htmlFor="theme">Theme</label>
-                    <select id="theme">
+                    <select id="theme" className="border rounded p-2">
                       <option value="light">Light Mode</option>
                       <option value="dark">Dark Mode</option>
                     </select>
